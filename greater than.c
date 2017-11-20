@@ -1,16 +1,19 @@
 #include <stdio.h>
+
 int sum(int,int);
+
 int main()
 {
 int a,b,c;
-printf("enter a number:");
+printf("Enter a number:");
 scanf("%d",&a);
-printf("enter another number");
+printf("Enter another number");
 scanf("%d",&b);
 c = sum(a,b);
 printf("The sum of %d and %d is %d",a,b,c);
 return 0;
 }
+//function for calculating sum
 int sum(int x, int y)
 {
     int s;
